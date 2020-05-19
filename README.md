@@ -9,4 +9,27 @@ Unlike some other guides, I'm not going to fanatical about keeping the pi off-li
 First follow steps outlined here for access to pi zero without having to plugin KVM
 https://desertbot.io/blog/headless-pi-zero-ssh-access-over-usb-windows
 
+1) -connect from SSH via ethernet over usb-
+2) install wallet software
+    2a) attempt to read/sign/write transaction via USB file transfer
+3) install camera
+    3a) attempt to activate camera, take picture
+    3b) attempt to read a QR code
+4) install eink screen
+    4a) attempt to display any image
+    4b) attempt to display QR code from file that can be read from phone
+    4c) attempt to read buttons and do something with them
+5) write a program
+accepts command from button
+inputs a QR codes transaction
+sends it to wallet for signing
+signs it and returns either a string or QR code image
+either QR encodes the string or displays the QR code image
+future:
+lock/unlock with buttons
+4 buttons:
+    all buttons unlock - locks after timeout
+    share master public key
+    sign transaction
+    lock
 
