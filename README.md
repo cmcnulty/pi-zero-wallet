@@ -28,9 +28,10 @@ https://desertbot.io/blog/headless-pi-zero-ssh-access-over-usb-windows
 
 future:
  - lock/unlock with buttons
+ 
 4 buttons:
-    - all buttons unlock - locks after timeout
-    - share master public key
-    - sign transaction
-    - lock
+- all buttons unlock - locks after timeout
+- share master public key
+- sign transaction
+- lock
 
