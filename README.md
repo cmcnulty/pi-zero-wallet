@@ -20,16 +20,17 @@ https://desertbot.io/blog/headless-pi-zero-ssh-access-over-usb-windows
    - attempt to display QR code from file that can be read from phone
    - attempt to read buttons and do something with them
 5. write a program
-accepts command from button
-inputs a QR codes transaction
-sends it to wallet for signing
-signs it and returns either a string or QR code image
-either QR encodes the string or displays the QR code image
+- accepts command from button
+- inputs a QR codes transaction
+- sends it to wallet for signing
+- signs it and returns either a string or QR code image
+- either QR encodes the string or displays the QR code image
+
 future:
-lock/unlock with buttons
+ - lock/unlock with buttons
 4 buttons:
-    all buttons unlock - locks after timeout
-    share master public key
-    sign transaction
-    lock
+    - all buttons unlock - locks after timeout
+    - share master public key
+    - sign transaction
+    - lock
 
